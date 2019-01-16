@@ -15,6 +15,12 @@ html,body{
     width:100vh;
 }
 
+a{
+  color:#000;
+  text-decoration: none;
+  font-size:20px;
+}
+
 .wrapperGrid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -24,17 +30,29 @@ html,body{
     height: 100vh;
   }
   
-  .leftGrid {
-    padding: 5rem;
+  .leftGrid { 
     background-color: #f9f9f9;
    
-    display: flex;
-    justify-content: left;
-    align-items: center;
-   
-   
-   
+    
+    display: grid;
+    grid-template-rows: 1fr 30px;
+    padding:5rem;
+
+  }
+
+  .leftGridContainer{
+    
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  }
   
+  .leftPageNav{
+    text-align: left;
+  }
+
+  .leftPageNav a{
+    padding:0 25px;
   }
 
   .img{
@@ -71,7 +89,7 @@ html,body{
   
   }
   
-  img {
-    height: 130vh;
+  img.home {
+    height: 120vh;
     width: 100vh;
   }
