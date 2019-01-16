@@ -14,3 +14,64 @@ html,body{
     min-width: 100%;
     width:100vh;
 }
+
+.wrapperGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .gridChild {
+    height: 100vh;
+  }
+  
+  .leftGrid {
+    padding: 5rem;
+    background-color: #f9f9f9;
+   
+    display: flex;
+    justify-content: left;
+    align-items: center;
+   
+   
+   
+  
+  }
+
+  .img{
+    height: 50px;
+    width: 50px;
+  }
+ 
+  .title{
+    font-weight: 800;
+    color: transparent; 
+    font-size:120px;
+    background: url("img/bg.jpg") repeat;
+    background-position: 40% 50%;
+    -webkit-background-clip: text;
+    position:relative;
+    text-align:center;
+    line-height:90px;
+    letter-spacing: -8px;
+    padding-bottom:20px;
+  }
+
+  .subtitle{
+    display: block;
+    text-align:center;
+    text-transform: uppercase;
+    padding-top:20px;
+    letter-spacing: 5px;
+  }
+   
+  .rightGrid {
+    background-color: #bcbcbc;
+    overflow: hidden;
+  
+  
+  }
+  
+  img {
+    height: 130vh;
+    width: 100vh;
+  }
